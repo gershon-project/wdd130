@@ -4,8 +4,10 @@ main {
 
 
 main img {
-    width: 200px;
+    width: 300px;
     height: auto;
+    padding: 1rem ;
+    border:  20px;
 }
 
 main p {
