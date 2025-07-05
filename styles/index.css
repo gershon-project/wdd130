@@ -2,6 +2,16 @@ main {
     max-width: 840;
 }
 
+
+main img {
+    width: 200px;
+    height: auto;
+}
+
+main p {
+    width: 50rem;
+}
+
 aside {
     width: 30rem;
     margin: 2rem;
@@ -13,11 +23,6 @@ aside {
 
 }
 
-main img {
-    width: 200px;
-    height: auto;
-}
-
 p {
     padding: 0;
 }
@@ -27,4 +32,5 @@ footer {
     border-top: solid 1px ;
     text-align: center;
 }
+
 
