@@ -3,8 +3,8 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
+    width: 30rem;
+    margin: 2rem;
     border: 1px solid rgb(0 0 0/0.2); /* 1️⃣🥇*/
     padding: 1rem;
     background-color: #eee;
@@ -14,7 +14,7 @@ aside {
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
@@ -23,8 +23,8 @@ p {
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px ;
+    margin-top: 20px;
+    border-top: solid 1px ;
     text-align: center;
 }
 
