@@ -3,10 +3,14 @@ h1  {
 
 }
 
-nav ul {
-    list-style: none;
+nav {
+    width: auto;
     
-}   
+}  
+nav a {
+    color: blue;
+}
+
 
 main {
     max-width: 840px;
