@@ -10,5 +10,69 @@
 
 header {
     background-color: var(--primary-color);
+    color: var(--accent2-color);
 }  
-+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0  auto;
+}
+
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.sociolmedia a {
+    text-decoration: none;
+    
+
+}
+footer img {
+    max-width: 7%;
+}
+
+.hero {
+    position: relative;
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    padding: 1p6x;
+    text-align: center;
+    opacity: 8;
+    background-color: var(--accent1-color);
+    color: #fff; /* white text make sure there is enough contrast with the background-color */
+    font-size: 70px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
