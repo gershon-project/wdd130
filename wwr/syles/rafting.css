@@ -64,7 +64,7 @@ h1 {
     position: absolute;
     top: 20px;
     width: 100px;
-    padding: 6px;
+    padding: 10px;
     text-align: center;
     opacity: 8;
     background-color: var(--accent1-color);
