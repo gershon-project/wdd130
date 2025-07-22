@@ -4,12 +4,15 @@ h1  {
 }
 
 nav {
-    width: auto;
+    background-color: rgb(48, 48, 255);
+    padding: 1px;
+
     
 }  
 nav a {
-    color: blue;
-    font-size: larger;
+    color: rgb(99, 27, 194);
+    display: contents;
+    padding: 5px ;
 
 }
 
