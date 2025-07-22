@@ -3,7 +3,7 @@
     --secondary-color: #012a4a;
     --accent1-color: #4f772d;
     --accent2-color: #0d1b2a;
-    --heading-font: "Roboto", sans-serif;
+    --heading-font: "Marrinwater", sans-serif;
     --body-font: "Lato", sans-serif;
     
 }
@@ -17,14 +17,22 @@ header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 70rem;
     font-style: normal;
+
+
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+
     
   
 }
@@ -68,10 +76,10 @@ footer img {
 h1 {
     position: absolute;
     top: 20px;
-    width: 100px;
+    width: 800px;
     padding: 10px;
     text-align: center;
-    opacity: 8;
+    opacity:0.7 ;
     background-color: var(--accent1-color);
     color: #fff; /* white text make sure there is enough contrast with the background-color */
     font-size: 70px;
