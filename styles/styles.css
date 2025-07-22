@@ -11,7 +11,7 @@ nav {
 }  
 nav a {
     color: rgb(99, 27, 194);
-    display: 0;
+    display: contents;
     padding: 5px ;
 
 }
