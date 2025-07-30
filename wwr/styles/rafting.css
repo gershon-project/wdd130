@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #0d3b66;
+    --primary-color:#0d1b2a ;
     --secondary-color: #012a4a;
     --accent1-color: #4f772d;
     --accent2-color: #0d1b2a;
@@ -23,18 +23,18 @@ header {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    font-family: "Roboto", sans-serif;
-    font-weight:700 ;
-    font-style: normal;
-
-
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    font-weight:700 ;
+    font-style:normal ;
 
 
     
-  
+article {
+    position: absolute;
+    top: 150px;
+}
+
+    
 }
 
 header, main, footer {
@@ -43,9 +43,13 @@ header, main, footer {
 }
 
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style:normal ;
+    
 }
 
 nav, p, section, article {
@@ -67,6 +71,7 @@ footer img {
     
 }
 
+
 .hero img {
     display: block;
     width: 100%;
@@ -87,5 +92,6 @@ h1 {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 200px;
+    
 }
