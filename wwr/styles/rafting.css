@@ -56,12 +56,32 @@ nav, p, section, article {
 
 .sociolmedia a {
     text-decoration: none;
+}
+
+footer {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 20PX;
+    text-align: center;
+    position: relative;
+    bottom: 0;
     
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 50px;
+    top: 20px;
 
 }
 footer img {
     max-width: 30%;
     width: 30px;
+
 }
 
 .hero {
@@ -103,9 +123,9 @@ article {
    
 }
 
-nav {
-	background-color:#36454f;
-}
+
+
+
 nav ul {
 	list-style-type: none;
 	display: flex;
@@ -129,44 +149,56 @@ nav a {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 1rem;
 	text-decoration: none;
     flex:  1 1 auto;
     border: 1px solid black;
     padding: 1px;
     font-size: 15px;
-    text-align: center;
+    
+}
+
+Section {
+  Max-width: 840px;
+  width: 800px;
+  Margin: 40px auto;
+  Padding: 20px;
+  background-color: var(--secondary-color);
+  Border: 1px solid #ddd;
+  Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
  section figure{
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: var(--secondary-color);
-    border: 1px solid;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    
+    Max-width: 800px;
+    Margin: 40px auto;
+    Padding: 20px;
+    Background-color: #f9f9f9;
+    Border: 1px solid #ddd;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
  }
 
 
  Figure {
+    Display: inline-block;
+    Margin: 10px;
+    Width: calc(33.33% - 20px);
+    Text-align: center;
   
 }
 
 Figure img {
-  Width: 100%;
-  Height: 150px;
+  Width: 200px;
+  Height: 200px;
   Object-fit: cover;
   Border-radius: 10px;
 }
 
 figcaption {
-  Font-size: 14px;
-  Color: #666;
-  Margin-top: 20px;
+  Font-size: 15px;
+  color: var(--accent2-color);
+  
+  background-color: aqua;
+  top: 200px;
   
   
   
