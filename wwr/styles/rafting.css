@@ -1,7 +1,7 @@
 :root {
     --primary-color:#0d1b2a ;
     --secondary-color: #012a4a;
-    --accent1-color: #4f772d;
+    --accent1-color: #3b1aa4;
     --accent2-color: #0d1b2a;
     --heading-font: "Roboto", sans-serif;
     --body-font: "Special Gothic Expanded One", sans-serif;
@@ -11,11 +11,7 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    margin: 1rem;
-    display: grid;
-    grid-template-columns: 120px 1fr 1fr;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
+   
 
 }  
 
@@ -30,45 +26,13 @@ body {
     font-family: var(--body-font);
     color: var(--accent1-color);
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight:700 ;
+    font-weight:600 ;
     font-style:normal ;
 
-.navigation {
-	display: flex;
-	flex-wrap: wrap;
-	list-style: none;
-	padding: 0;
-	font-family: Arial, sans-serif;
-}
 
-.navigation li {
-	flex: 1 1 auto;
-}
-
-.navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
-	font-size: 1.2rem;
-}
-
-.navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
 }
 
 
-
-
-    
-
-
-
-
-    
-}
 
 header, main, footer {
     width: 840px;
@@ -122,6 +86,7 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff; /* white text make sure there is enough contrast with the background-color */
     font-size: 70px;
+
 }
 
 .hero article img {
@@ -135,4 +100,77 @@ h1 {
 article {
     position: absolute;
     top: 170px;
+   
 }
+
+nav {
+	background-color:#36454f;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 900px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr); /*100px 100px 200px, 1fr 2fr 1fr 1fr */ 
+    padding: 30px;
+    grid-gap: 0px;
+    border: 1px;
+    
+}
+
+
+
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+    flex:  1 1 auto;
+    border: 1px solid black;
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+
+ section figure{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border: 1px solid;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+ }
+
+
+ Figure {
+  
+}
+
+Figure img {
+  Width: 100%;
+  Height: 150px;
+  Object-fit: cover;
+  Border-radius: 10px;
+}
+
+figcaption {
+  Font-size: 14px;
+  Color: #666;
+  Margin-top: 20px;
+  
+  
+  
+}
+
+
+
