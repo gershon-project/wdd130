@@ -62,7 +62,8 @@ nav, p, section, article {
 
 }
 footer img {
-    max-width: 7%;
+    max-width: 30%;
+    width: 30px;
 }
 
 .hero {
