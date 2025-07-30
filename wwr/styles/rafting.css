@@ -11,6 +11,12 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+
 }  
 
 * {
