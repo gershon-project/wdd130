@@ -29,10 +29,9 @@ body {
 
 
     
-article {
-    position: absolute;
-    top: 150px;
-}
+
+
+
 
     
 }
@@ -93,5 +92,12 @@ h1 {
 .hero article img {
     float: right;
     width: 200px;
+    padding: 8px 1px #aaa;
     
+    
+}
+
+article {
+    position: absolute;
+    top: 170px;
 }
