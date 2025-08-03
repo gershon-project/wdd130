@@ -1,6 +1,6 @@
 :root {
     --primary-color:#0d1b2a ;
-    --secondary-color: #012a4a;
+    --secondary-color:#0d1b2a ;
     --accent1-color: #3b1aa4;
     --accent2-color: #0d1b2a;
     --heading-font: "Roboto", sans-serif;
@@ -11,9 +11,18 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-   
-
+    display: grid;
+    padding: 20px;
+    grid-gap: 10px;
+    border: 5px bisque dashed;
 }  
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
 
 * {
     margin: 0;
@@ -50,7 +59,7 @@ h1, h2, h3, h4 {
 }
 
 nav, p, section, article {
-    margin: 16px;
+    margin: 15px;
     padding: 8px;
 }
 
@@ -63,8 +72,14 @@ nav, p, section, article {
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
+
 }
 
+footer nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
 
 footer {
     background-color: var(--accent1-color);
@@ -88,13 +103,8 @@ footer p {
 
 }
 footer img {
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
     width: 30px;
     
-
-
 }
 
 .hero {
@@ -122,6 +132,13 @@ h1 {
 
 }
 
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
 .hero article img {
     float: right;
     width: 200px;
@@ -133,7 +150,18 @@ h1 {
 article {
     position: absolute;
     top: 170px;
-   
+    Max-width: 840px;
+    width: 800px;
+    Margin: 40px auto;
+    Padding: 2px 10px;
+    background-color: var(--accent1-color);
+    Border: 1px solid #ddd;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+article p {
+    color: #fff;
 }
 
 
@@ -150,9 +178,8 @@ nav ul {
     display: grid;
     grid-template-columns:  repeat(5, 1fr); /*100px 100px 200px, 1fr 2fr 1fr 1fr */ 
     padding: 30px;
-    grid-gap: 0px;
+    grid-gap: 5px;
     border: 1px;
-    
 }
 
 
@@ -180,13 +207,24 @@ Section {
   Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section p {
+    color: #fff;
+}
+
+
+section img {
+    float: right;
+    width: 200px;
+}
+
  section figure{
-    Max-width: 800px;
-    Margin: 40px auto;
-    Padding: 20px;
+    Max-width: 900px;;
+    Margin: 2px auto;
+    Padding: 1px;
     Background-color: #f9f9f9;
     Border: 1px solid #ddd;
-    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
 
  }
 
@@ -194,24 +232,24 @@ Section {
  Figure {
     Display: inline-block;
     Margin: 10px;
-    Width: calc(33.33% - 20px);
     Text-align: center;
+    
   
 }
 
 Figure img {
   Width: 200px;
   Height: 200px;
-  Object-fit: cover;
-  Border-radius: 10px;
+  Border-radius: 15px;
+ 
 }
 
 figcaption {
   Font-size: 15px;
   color: var(--accent2-color);
+  top: 170px;
   
-  background-color: aqua;
-  top: 200px;
+
   
   
   
