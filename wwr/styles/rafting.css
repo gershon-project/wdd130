@@ -238,19 +238,18 @@ section img {
  }
 
  .history-left {
-    grid-column: 1/2;
+    text-align: left;
     
  }
 
  .history-right {
-    align-content: flex-end;
+    text-align: right;
     
     
  }
 
  .history-image {
-    align-content: center;
-    top: 120px;
+    align-items: center;
  }
 
 
