@@ -194,9 +194,6 @@ nav ul {
     border: 1px;
 }
 
-
-
-
 nav a {
 	display: block;
 	color: #fff;
@@ -205,8 +202,7 @@ nav a {
     flex:  1 1 auto;
     border: 1px solid black;
     padding: 1px;
-    font-size: 15px;
-    
+    font-size: 15px;   
 }
 
 Section {
@@ -225,67 +221,40 @@ section p {
 
 
 section img {
-    float: right;
-    width: 200px;
+    width: 150px
 }
-
-
 
  .history-container {
     display: flex;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
- }
-
- .history-left {
-    text-align: left;
-    
- }
-
- .history-right {
-    text-align: right;
-    
-    
- }
-
- .history-image {
     align-items: center;
+    justify-content: space-around;
  }
 
-
- section figure{
+section figure{
+    display: flex;
+    text-align: center;
     Max-width: 900px;;
     Margin: 2px auto;
     Padding: 1px;
     Background-color: #f9f9f9;
     Border: 1px solid #ddd;  
-
  }
 
- Figure {
-    Display: inline-block;
-    Margin: 10px;
+Figure {
+    display: flex;
+    Margin: 1px;
     Text-align: center;
-    
-  
 }
 
 Figure img {
-  Width: 200px;
-  Height: 200px;
-  Border-radius: 15px;
- 
+    display: flex;
+    Width: 150px; 
+    Border-radius: 15px;
 }
 
 figcaption {
-  Font-size: 15px;
+  Font-size: 6px;
   color: var(--accent2-color);
-  
-  
-
-  
-  
-  
 }
 
 
