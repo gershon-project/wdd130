@@ -290,6 +290,12 @@ input[type="checkbox"] {
     
 }
 
+.contact-container {
+    
+    display: flex;
+    bottom: 50px;
+}
+
 
 
 button:hover {
