@@ -222,7 +222,8 @@ section p {
 
 
 section img {
-    width: 150px
+    width: 100px;
+    
 }
 
  .history-container {
@@ -231,30 +232,33 @@ section img {
     justify-content: space-around;
  }
 
-section figure{
-    display: flex;
-    text-align: center;
-    Max-width: 900px;;
-    Margin: 2px auto;
-    Padding: 1px;
-    Background-color: #f9f9f9;
-    Border: 1px solid #ddd;  
- }
-
  
 
- .adventures-container{
-    display: flex;
-   
- }
+ 
 
 
 
 figcaption {
-  Font-size: 6px;
-  color: var(--accent2-color);
+  text-align: center;
+  Font-size: 10px;
+  color: #fff;
 }
 
+.adventure_container {
+    display: flex;
+   
+ }
+
+ figure img {
+    width: 100px;
+ }
+
+ figure {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+ }
 
 
 label {
@@ -285,10 +289,14 @@ input[type="checkbox"] {
 
 .column3 {
     grid-template-columns: 1fr 3fr 2fr ;
-    margin: .5rem;
-    
-    
+    margin: .5rem; 
 }
+
+.meet_container {
+    display: flex;
+}
+
+
 
 .contact-container {
     
