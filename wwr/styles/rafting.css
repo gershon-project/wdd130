@@ -8,22 +8,58 @@
     
 }
 
-header {
+.header-container {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     place-items: center;
     padding: 1rem;
     grid-gap: 10px;
     border: 5px bisque dashed;
-
 }  
 
-header nav {
+
+
+nav {
     display: flex;
     justify-content: flex-end;
 }
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 900px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr); /*100px 100px 200px, 1fr 2fr 1fr 1fr */ 
+    padding: 30px;
+    grid-gap: 5px;
+    border: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+    flex:  1 1 auto;
+    border: 1px solid black;
+    padding: 1px;
+    font-size: 15px;   
+}
+ 
 
 header a {
     
@@ -42,7 +78,7 @@ body {
     font-family: var(--body-font);
     color: var(--accent1-color);
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight:600 ;
+    font-weight:100 ;
     font-style:normal ;
 
 
@@ -76,11 +112,8 @@ nav, p, section, article {
 
 .sociolmedia {
     position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-
 }
+
 
 footer nav {
     display: flex;
@@ -172,38 +205,6 @@ article p {
 }
 
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-nav ul {
-	list-style-type: none;
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 900px;
-	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-    display: grid;
-    grid-template-columns:  repeat(5, 1fr); /*100px 100px 200px, 1fr 2fr 1fr 1fr */ 
-    padding: 30px;
-    grid-gap: 5px;
-    border: 1px;
-}
-
-nav a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-    flex:  1 1 auto;
-    border: 1px solid black;
-    padding: 1px;
-    font-size: 15px;   
-}
 
 Section {
   Max-width: 840px;
@@ -240,17 +241,14 @@ section figure{
     Border: 1px solid #ddd;  
  }
 
-Figure {
-    display: flex;
-    Margin: 1px;
-    Text-align: center;
-}
+ 
 
-Figure img {
+ .adventures-container{
     display: flex;
-    Width: 150px; 
-    Border-radius: 15px;
-}
+   
+ }
+
+
 
 figcaption {
   Font-size: 6px;
@@ -258,4 +256,43 @@ figcaption {
 }
 
 
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 1fr 5fr 2fr;
+  margin: 2rem 0;
+}
+
+.column2 {
+  margin: .5rem;
+  display: flex;
+}
+
+.column3 {
+    grid-template-columns: 1fr 3fr 2fr ;
+    margin: .5rem;
+    
+    
+}
+
+
+
+button:hover {
+  background-color: darkgreen;
+}
 

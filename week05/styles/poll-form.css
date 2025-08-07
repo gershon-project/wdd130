@@ -67,6 +67,9 @@ input[type="checkbox"] {
   vertical-align: bottom;
 }
 
+
+
+
 button {
   margin: 1rem;
   background-color: navy;
@@ -100,7 +103,8 @@ footer {
   margin: 0.5rem 0;
 }
 
+
+
 .column2 {
   grid-template-columns: 1fr 2fr;
 }
-
