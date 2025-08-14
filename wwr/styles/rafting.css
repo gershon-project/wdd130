@@ -209,7 +209,7 @@ article p {
 Section {
   Max-width: 840px;
   width: 800px;
-  Margin: 40px auto;
+  Margin: 20px auto;
   Padding: 20px;
   background-color: var(--secondary-color);
   Border: 1px solid #ddd;
@@ -278,8 +278,8 @@ input[type="checkbox"] {
 }
 
 .column1 {
-  grid-template-columns: 1fr 5fr 2fr;
-  margin: 2rem 0;
+  grid-template-columns: 0fr 1fr 1fr 1fr;
+  margin: 0.5rem 0;
 }
 
 .column2 {
@@ -317,7 +317,12 @@ button:hover {
   background-color: darkgreen;
 }
 
+textarea {
 
+    height: 100px;
+    width: 500px;
+
+}
 
 .cta-container {
     Text-align: center;
