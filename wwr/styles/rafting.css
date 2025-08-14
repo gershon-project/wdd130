@@ -304,7 +304,14 @@ input[type="checkbox"] {
     bottom: 50px;
 }
 
-
+button {
+    Background-color: #007BFF;
+    Color: white;
+    Padding: 10px 20px;
+    Text-decoration: none;
+    Border-radius: 5px;
+    margin: 20px;
+}
 
 button:hover {
   background-color: darkgreen;
@@ -312,3 +319,109 @@ button:hover {
 
 
 
+.cta-container {
+    Text-align: center;
+    
+}
+
+.cta-button {
+    Background-color: #007BFF;
+    Color: white;
+    Padding: 10px 20px;
+    Text-decoration: none;
+    Border-radius: 5px;
+}
+
+
+
+.trip-container{
+    align-items: center;
+    display: grid;
+    
+}
+.trip {
+    Margin: 20px;
+    Text-align: center;
+    align-items: center;
+    Width: 30%;
+}
+
+.trip img{
+    Max-width: 500rem;
+    width: 200px;
+    Border-radius: 8px;
+    align-items: center;
+    
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 45rem;
+  height: 300px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+thead th {
+    background-color: #000;
+    color: #fff;
+}
+
+th,
+td {
+  border: 2px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+
+.grid-container {
+    Display: grid;
+    Grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    Gap: 20px;
+    Padding: 5px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid-item {
+    Padding: 15px;
+    Border-radius: 8px;
+    Text-align: center;
+    Box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    Max-width: 100%;
+    width: 100%;
+    Border-radius: 8px;
+}
