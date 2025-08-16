@@ -5,21 +5,24 @@
     --accent2-color: #0d1b2a;
     --heading-font:"Roboto", sans-serif;
     --body-font: "Special Gothic Expanded One", sans-serif;
+  
     
+ 
+
 }
+
+
 
 .header-container {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     padding: 1rem;
     grid-gap: 10px;
     border: 5px bisque dashed;
 }  
-
-
-
 nav {
     display: flex;
     justify-content: flex-end;
